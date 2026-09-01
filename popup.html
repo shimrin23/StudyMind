@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="popup.css"><title>StudyMind</title></head>
+<body>
+  <main>
+    <header><div class="mark"><img src="icons/icon48.png" alt="StudyMind" width="32" height="32"></div><div><h1>StudyMind</h1><p>Study without the noise.</p></div></header>
+    <section class="focus-card">
+      <div class="status"><span id="status-dot"></span><span id="status-text">Focus Mode off</span></div>
+      <div id="timer">00:00:00</div>
+      <button id="toggle" class="start">Start Focus Mode</button>
+    </section>
+    <section class="stats"><div class="section-title"><h2>Your progress</h2><span id="period">Today</span></div>
+      <div class="stat-grid"><div><b id="focus-stat">0m</b><span>Focus time</span></div><div><b id="videos-stat">0</b><span>Study videos</span></div><div><b id="blocked-stat">0</b><span>Hidden</span></div></div>
+      <button id="week-toggle" class="text-button">View this week</button>
+    </section>
+    <p class="footer">Search for a study video on YouTube after starting.</p>
+  </main><script src="popup.js"></script>
+</body></html>
